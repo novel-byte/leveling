@@ -6,14 +6,15 @@ import { getFirestore, doc, getDoc, setDoc, onSnapshot } from 'firebase/firestor
 function App() {
   // Firebase configuration: REPLACE THESE VALUES WITH YOUR OWN FIREBASE CONFIG
   // You will get this from the Firebase Console -> Project settings -> Your apps -> Web app
-  const firebaseConfig = {
-    apiKey: "YOUR_FIREBASE_API_KEY",
-    authDomain: "YOUR_FIREBASE_AUTH_DOMAIN",
-    projectId: "YOUR_FIREBASE_PROJECT_ID",
-    storageBucket: "YOUR_FIREBASE_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_FIREBASE_MESSAGING_SENDER_ID",
-    appId: "YOUR_FIREBASE_APP_ID"
-  };
+  // Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDRtHacJDalfYRs4RTFVKlRe_uYNmofEe0",
+  authDomain: "levlevlev-9191d.firebaseapp.com",
+  projectId: "levlevlev-9191d",
+  storageBucket: "levlevlev-9191d.firebasestorage.app",
+  messagingSenderId: "347960270611",
+  appId: "1:347960270611:web:95e2e775b7900790cac4e6"
+};
   // Use the appId from your config for Firestore paths
   const appId = firebaseConfig.appId;
 
